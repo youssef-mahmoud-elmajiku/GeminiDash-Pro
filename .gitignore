@@ -1,0 +1,26 @@
+# PHP / Composer
+/vendor/
+composer.phar
+
+# JavaScript
+node_modules/
+dist/
+build/
+.next/
+coverage/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Logs and uploads generated locally
+*.log
+/storage/
+uploads/
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
